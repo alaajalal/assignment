@@ -1,0 +1,18 @@
+You are given the time series dataset describing the evolution of the number of Covid-19 infection cases 
+in the period between January 11 and July 17, 2020. Your goal is to compare the disease development in 
+two countries of your choice and make observations/conclusions about the character of this evolution 
+(either in the commentaries to your python script or the separate text file). 
+Choose the two countries and post your choices in the commentaries to this thread. 
+You can pick only those countries that have not been picked by others. 
+The following are mandatory components in your python script:
+
+1. Import and clean the time series
+2. Calculate measures of central tendency and spread of the two time-series. Write the results into an xlsx-file
+3. Calculate frequencies of your time-series.
+4. Choose the best number of bins for your time-series and show their histograms in the same plot.
+5. Customize your histogram showing the legend, axis labels, specifying colors, etc.
+6. Choose the best window size to calculate the moving averages of the time-series and plot these averages together with the time series.
+7. Calculate and plot volatility of the time-series
+8. Write the average and volatility time series to the .csv file
+9. Make a regression analysis to determine if the two given time-series are linearly correlated
+10. The code must contain at least one data type created by you
